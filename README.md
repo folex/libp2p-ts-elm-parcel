@@ -1,4 +1,16 @@
-# Current issue
+# What?
+I need to get libp2p-js + TypeScript + Elm + Parcel to work. This repository shows history of me trying to achieve that.
+
+*NOTE: libp2p dependency is brought through `fluence` dependency since it's the easiest and most relevant way to use libp2p for me.*
+
+## Current state of affairs
+Setting target browsers to `"last 1 Chrome version"` in `.babelrc` seems to avoid the [issue](#previous-issue), though this is suboptimal. 
+
+If anyone knows how to fix [issue](#previous-issue) without giving up on older browsers, **please let me know by submitting a PR or an issue**, thanks in advance!
+
+## Previous issue
+Previously (commit 1b474826bf14bd3dab696f9e9cc7a7beed78da2f) I was stuck at this issue: [facebook/regenerator#391](https://github.com/facebook/regenerator/issues/391), [babel/babel-loader#840](https://github.com/babel/babel-loader/issues/840).
+
 To reproduce, run
 ```shell
 npm i
